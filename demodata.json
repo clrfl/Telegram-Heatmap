@@ -1,0 +1,555 @@
+{
+ "name": "TelegramGroup",
+ "type": "private_group",
+ "id": 12345678,
+ "messages": [
+  {
+   "id": 2159,
+   "type": "service",
+   "date": "2015-04-13T14:50:58",
+   "date_unixtime": "1428929458",
+   "actor": "Random User 1",
+   "actor_id": "user1234",
+   "action": "invite_members",
+   "members": [
+    "Random User 2"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 2160,
+   "type": "service",
+   "date": "2015-04-13T14:51:04",
+   "date_unixtime": "1428929464",
+   "actor": "Random User 1",
+   "actor_id": "user1234",
+   "action": "invite_members",
+   "members": [
+    "None"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 2161,
+   "type": "message",
+   "date": "2015-04-13T14:51:08",
+   "date_unixtime": "1428929468",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "?"
+    }
+   ]
+  },
+  {
+   "id": 2162,
+   "type": "message",
+   "date": "2015-04-13T14:51:12",
+   "date_unixtime": "1428929472",
+   "from": "Random User 1",
+   "from_id": "user1234",
+   "text": "Ok?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok?"
+    }
+   ]
+  },
+  {
+   "id": 2163,
+   "type": "message",
+   "date": "2015-04-13T14:51:20",
+   "date_unixtime": "1428929480",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "was ist? :D",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "was ist? :D"
+    }
+   ]
+  },
+  {
+   "id": 243252,
+   "type": "message",
+   "date": "2015-10-31T19:08:16",
+   "date_unixtime": "1446314896",
+   "from": "Human",
+   "from_id": "user123",
+   "text": "und den nur resetten wenn der andere größer ist",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "und den nur resetten wenn der andere größer ist"
+    }
+   ]
+  },
+  {
+   "id": 243255,
+   "type": "message",
+   "date": "2015-10-31T19:08:45",
+   "date_unixtime": "1446314925",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "Dann ... Frag jemanden anderen D:",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Dann ... Frag jemanden anderen D:"
+    }
+   ]
+  },
+  {
+   "id": 243256,
+   "type": "message",
+   "date": "2015-10-31T19:08:49",
+   "date_unixtime": "1446314929",
+   "from": "Human",
+   "from_id": "user123",
+   "text": "ja..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ja.."
+    }
+   ]
+  },
+  {
+   "id": 243257,
+   "type": "message",
+   "date": "2015-10-31T19:09:07",
+   "date_unixtime": "1446314947",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "tellraw @a help!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "tellraw @a help!"
+    }
+   ]
+  },
+  {
+   "id": 243258,
+   "type": "message",
+   "date": "2015-10-31T19:09:33",
+   "date_unixtime": "1446314973",
+   "from": "Human",
+   "from_id": "user123",
+   "text": "minecraft könnte was haben wie zb. scoreboard players @a test score1 0 score2 aber ne score2 is ungültig...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "minecraft könnte was haben wie zb. scoreboard players @a test score1 0 score2 aber ne score2 is ungültig..."
+    }
+   ]
+  },
+  {
+   "id": 243259,
+   "type": "message",
+   "date": "2015-10-31T19:10:40",
+   "date_unixtime": "1446315040",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "title @a[score_mapmaking_experience_min=999] title {text:\"USER NEEDS YOU!\",color:red,bold:true}",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "title @a[score_mapmaking_experience_min=999] title {text:\"USER NEEDS YOU!\",color:red,bold:true}"
+    }
+   ]
+  },
+  {
+   "id": 469721,
+   "type": "message",
+   "date": "2016-03-06T23:47:25",
+   "date_unixtime": "1457304445",
+   "from": "None",
+   "from_id": "user12345678",
+   "reply_to_message_id": 469717,
+   "text": "Random User 9 adde mal +s support",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Random User 9 adde mal +s support"
+    }
+   ]
+  },
+  {
+   "id": 469722,
+   "type": "message",
+   "date": "2016-03-06T23:47:25",
+   "date_unixtime": "1457304445",
+   "from": "Random User 930Bot",
+   "from_id": "user123456",
+   "reply_to_message_id": 469721,
+   "text": [
+    "Ich glaube, er meint dich, ",
+    {
+     "type": "mention",
+     "text": "@randomuser5"
+    },
+    "."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ich glaube, er meint dich, "
+    },
+    {
+     "type": "mention",
+     "text": "@randomuser5"
+    },
+    {
+     "type": "plain",
+     "text": "."
+    }
+   ]
+  },
+  {
+   "id": 469723,
+   "type": "message",
+   "date": "2016-03-06T23:47:35",
+   "date_unixtime": "1457304455",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "Ich meine users bot",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ich meine users bot"
+    }
+   ]
+  },
+  {
+   "id": 469724,
+   "type": "message",
+   "date": "2016-03-06T23:47:39",
+   "date_unixtime": "1457304459",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "☝️🏼",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "☝️🏼"
+    }
+   ]
+  },
+  {
+   "id": 469725,
+   "type": "message",
+   "date": "2016-03-06T23:47:45",
+   "date_unixtime": "1457304465",
+   "from": "Random User 9",
+   "from_id": "user12345",
+   "reply_to_message_id": 469721,
+   "text": "Hmm..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hmm.."
+    }
+   ]
+  },
+  {
+   "id": 469726,
+   "type": "message",
+   "date": "2016-03-06T23:47:50",
+   "date_unixtime": "1457304470",
+   "from": "Random User 9",
+   "from_id": "user12345",
+   "text": "Weiß nicht ganz",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Weiß nicht ganz"
+    }
+   ]
+  },
+  {
+   "id": 469727,
+   "type": "message",
+   "date": "2016-03-06T23:47:57",
+   "date_unixtime": "1457304477",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "But",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But"
+    }
+   ]
+  },
+  {
+   "id": 469728,
+   "type": "message",
+   "date": "2016-03-06T23:48:00",
+   "date_unixtime": "1457304480",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "But why?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But why?"
+    }
+   ]
+  },
+  {
+   "id": 469729,
+   "type": "message",
+   "date": "2016-03-06T23:48:00",
+   "date_unixtime": "1457304480",
+   "from": "Random User 9",
+   "from_id": "user12345",
+   "text": "Ich meine Random User 9 --> Random User 9s",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ich meine Random User 9 --> Random User 9s"
+    }
+   ]
+  },
+  {
+   "id": 469730,
+   "type": "message",
+   "date": "2016-03-06T23:48:08",
+   "date_unixtime": "1457304488",
+   "from": "Random User 9",
+   "from_id": "user12345",
+   "text": "None --> Nones",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "None --> Nones"
+    }
+   ]
+  },
+  {
+   "id": 469731,
+   "type": "message",
+   "date": "2016-03-06T23:48:10",
+   "date_unixtime": "1457304490",
+   "from": "Random User 930Bot",
+   "from_id": "user123456",
+   "reply_to_message_id": 469730,
+   "text": [
+    "Ich glaube, er meint dich, ",
+    {
+     "type": "mention",
+     "text": "@user12314"
+    },
+    "."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ich glaube, er meint dich, "
+    },
+    {
+     "type": "mention",
+     "text": "@user12314"
+    },
+    {
+     "type": "plain",
+     "text": "."
+    }
+   ]
+  },
+  {
+   "id": 469732,
+   "type": "message",
+   "date": "2016-03-06T23:48:14",
+   "date_unixtime": "1457304494",
+   "from": "Random User 9",
+   "from_id": "user12345",
+   "reply_to_message_id": 469731,
+   "text": "Ja",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ja"
+    }
+   ]
+  },
+  {
+   "id": 469733,
+   "type": "message",
+   "date": "2016-03-06T23:48:26",
+   "date_unixtime": "1457304506",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "Ja aber wenn ich sage ich fand users Bilder schön",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ja aber wenn ich sage ich fand users Bilder schön"
+    }
+   ]
+  },
+  {
+   "id": 1004835,
+   "type": "message",
+   "date": "2022-09-28T09:54:58",
+   "date_unixtime": "1664351698",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 987,
+   "height": 540,
+   "text": [
+    "Auch krass dass er im Hintergrund casually den Blick aus seinem Fenster leakt. Wenn man irgendwie die Stadt rausfindet (Dialekt klingt bayrisch) kann man ihn ganz gut tracken ",
+    {
+     "type": "mention",
+     "text": "@user1234"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Auch krass dass er im Hintergrund casually den Blick aus seinem Fenster leakt. Wenn man irgendwie die Stadt rausfindet (Dialekt klingt bayrisch) kann man ihn ganz gut tracken "
+    },
+    {
+     "type": "mention",
+     "text": "@user1234"
+    }
+   ]
+  },
+  {
+   "id": 1004867,
+   "type": "message",
+   "date": "2022-09-28T10:59:59",
+   "date_unixtime": "1664355599",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "ja kommt aus Bayern\ner hat im Stream auch schon Mal größere Städte bei ihm in der Nähe genannt",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ja kommt aus Bayern\ner hat im Stream auch schon Mal größere Städte bei ihm in der Nähe genannt"
+    }
+   ]
+  },
+  {
+   "id": 1004868,
+   "type": "message",
+   "date": "2022-09-28T11:00:16",
+   "date_unixtime": "1664355616",
+   "from": "None",
+   "from_id": "user12345678",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 661,
+   "height": 1280,
+   "text": "bin übrigens Mod in seinem Stream 😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "bin übrigens Mod in seinem Stream 😁"
+    }
+   ]
+  },
+  {
+   "id": 1004869,
+   "type": "message",
+   "date": "2022-09-28T11:08:51",
+   "date_unixtime": "1664356131",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "Jo wtf",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Jo wtf"
+    }
+   ]
+  },
+  {
+   "id": 1004870,
+   "type": "message",
+   "date": "2022-09-28T11:08:52",
+   "date_unixtime": "1664356132",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "Nice!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nice!"
+    }
+   ]
+  },
+  {
+   "id": 1004871,
+   "type": "message",
+   "date": "2022-09-28T11:09:16",
+   "date_unixtime": "1664356156",
+   "from": "Random User 2",
+   "from_id": "user1234567",
+   "text": "Wie kommt's dazu?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wie kommt's dazu?"
+    }
+   ]
+  },
+  {
+   "id": 1004883,
+   "type": "message",
+   "date": "2022-09-28T12:29:59",
+   "date_unixtime": "1664360999",
+   "edited": "2022-09-28T17:24:01",
+   "edited_unixtime": "1664378641",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": "kenn mich in der Materie aus und bin oft in Stream (gewesen)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kenn mich in der Materie aus und bin oft in Stream (gewesen)"
+    }
+   ]
+  },
+  {
+   "id": 1005894,
+   "type": "message",
+   "date": "2022-10-15T17:04:08",
+   "date_unixtime": "1665846248",
+   "edited": "2022-10-15T17:04:12",
+   "edited_unixtime": "1665846252",
+   "from": "None",
+   "from_id": "user12345678",
+   "text": [
+    "Habt ihr das Mob Voting mitbekommen? Geht noch eine Stunde\n",
+    {
+     "type": "link",
+     "text": "https://www.minecraft.net/de-de/live"
+    },
+    "\nund danach ist Minecraft Live"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Habt ihr das Mob Voting mitbekommen? Geht noch eine Stunde\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.minecraft.net/de-de/live"
+    },
+    {
+     "type": "plain",
+     "text": "\nund danach ist Minecraft Live"
+    }
+   ]
+  }
+ ]
+}
