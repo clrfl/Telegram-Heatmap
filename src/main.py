@@ -44,17 +44,14 @@ def read_file(file, gapless=True, use_dictionary=False):
                 else:
                     user_from = p['from']
 
-                # If previous members of your chat have deleted their accounts, p['from'] will be "None".
-                # The None-user will be attributed the message counts of all deleted users, which can negatively
-                # impact your result's meaningfulness.
+                if user_from is None:
+                    user_from = p['from_id']
 
-                # Two easy workarounds are:
+                # If previous members of your chat have deleted their accounts, p['from'] will be None.
+                # Therefore it is replaced here with their 'from_id'.
+                # You can use a { from-id : username } dictionary to translate ids to usernames, and restore
+                # missing names manually from context.
 
-                # - dropping the None user index-row in process_file() with
-                #   dataframe.drop(index='None', inplace=True)
-                #
-                # - using p['from_id'] instead of p['from'], which is unique, but won't contain the username.
-                #   However you can translate the IDs by creating a dictionary from your datafile
                 #   ----> see create_dictionary.py for more <----
 
                 previous = 0
@@ -80,8 +77,6 @@ def read_file(file, gapless=True, use_dictionary=False):
 def process_file(sort=True):
     global dataframe
 
-    # dataframe.drop(index='None', inplace=True)
-
     # fill empty dataframe entries with 0
     dataframe.fillna(0, inplace=True)
 
@@ -104,4 +99,4 @@ def draw_map(x=20, y=10):
 if __name__ == "__main__":
     read_file('../demodata.json', gapless=True, use_dictionary=False)
     process_file(sort=True)
-    draw_map(30, 10)
+    draw_map(15, 40)
